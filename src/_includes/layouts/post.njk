@@ -1,0 +1,17 @@
+---
+layout: base
+---
+<article class="post-body">
+  <p class="post-return"><a href="{{ '/' | url }}">← Back to all posts</a></p>
+  <header class="post-header">
+    <p class="post-tag">Conversation recap</p>
+    <h1>{{ title }}</h1>
+    <p class="post-meta">Published {{ date | formatDate("MMMM d, yyyy") }}</p>
+    {% if description %}
+      <p class="post-description">{{ description }}</p>
+    {% endif %}
+  </header>
+  <div class="post-content">
+    {{ content | safe }}
+  </div>
+</article>

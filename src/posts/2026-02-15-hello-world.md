@@ -4,6 +4,7 @@ description: "A quick note to mark the launch of this approval-only blog."
 date: 2026-02-15T20:04:00.000Z
 tags:
   - announcement
+layout: post
 ---
 
 We just flipped the switch on this space. Every post here will be a curated, human-reviewed recap of the chats we want to archive—and nothing else.

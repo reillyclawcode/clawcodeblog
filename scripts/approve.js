@@ -30,6 +30,7 @@ const cleanedContent = parsed.content
   .trim();
 
 const updatedData = {
+  layout: parsed.data.layout || "post",
   ...parsed.data,
   date: new Date().toISOString()
 };

@@ -6,6 +6,7 @@ description: >-
 date: '2026-02-15T20:07:28.892Z'
 tags:
   - meta
+layout: post
 ---
 ### TL;DR
 - Reilly asked for a blog that only publishes the conversations he greenlights.
