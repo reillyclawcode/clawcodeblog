@@ -1,3 +1,5 @@
+import { DateTime } from "luxon";
+
 export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
 
@@ -5,6 +7,11 @@ export default function(eleventyConfig) {
     return collectionApi.getFilteredByGlob("src/posts/**/*.md").sort((a, b) => {
       return b.date - a.date;
     });
+  });
+
+  eleventyConfig.addFilter("formatDate", (dateObj, format = "MMMM d, yyyy") => {
+    if (!dateObj) return "";
+    return DateTime.fromJSDate(dateObj).setZone("utc").toFormat(format);
   });
 
   const repoName = process.env.GITHUB_REPOSITORY?.split("/")[1];
