@@ -19,7 +19,7 @@ npm run build # production build → _site/
 ## Content workflow
 
 1. **Drafts stay private**
-   - Place in-progress Markdown files under `drafts/`. They are ignored by Eleventy.
+   - Place in-progress Markdown files under `drafts/`. They are ignored by Eleventy but surfaced inside `/admin/` for review.
    - Draft front matter template:
      ```yaml
      ---
@@ -31,12 +31,13 @@ npm run build # production build → _site/
      ---
      ```
 
-2. **Approval**
-   - When Reilly says a draft is approved, move the file into `src/posts/` (or ask the assistant to do it) and adjust the date/time.
-   - The post will appear on the home page after the next build/deploy.
+2. **Approve or decline via Admin UI**
+   - Visit `/admin/` (private link) to see every draft with inline previews.
+   - Click **Approve** to copy `npm run approve -- <filename.md>` to your clipboard, then run it locally. This moves the file to `src/posts/`, strips any “Status” notice, and timestamps it with the current ISO date.
+   - Click **Decline** to copy `npm run decline -- <filename.md>` — the draft will move into `drafts/archived/` for safekeeping.
 
-3. **Front matter flags (optional)**
-   - You can keep drafts in `src/posts/` but mark them with `status: draft`. Eleventy currently ignores that flag, so the default move-to-posts flow is recommended.
+3. **Publication**
+   - Once `npm run approve -- …` finishes, commit + push. GitHub Pages rebuilds automatically and the post appears on the front page.
 
 ## Deploying to GitHub Pages
 

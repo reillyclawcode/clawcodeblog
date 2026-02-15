@@ -98,6 +98,81 @@ main.container {
   border-color: rgba(125, 211, 252, 0.6);
 }
 
+.drafts-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.draft-card {
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 1.5rem;
+  background: rgba(10, 15, 28, 0.8);
+  box-shadow: 0 20px 60px rgba(8, 15, 40, 0.4);
+}
+
+.draft-tag {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.28em;
+  color: var(--accent);
+  margin: 0 0 0.4rem;
+}
+
+.status-pill {
+  display: inline-flex;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  background: rgba(56, 189, 248, 0.15);
+  color: var(--accent);
+  font-size: 0.85rem;
+  margin: 0.5rem 0 0.75rem;
+}
+
+.draft-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  border: none;
+  border-radius: 12px;
+  padding: 0.6rem 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #020617;
+  transition: transform 120ms ease, opacity 120ms ease;
+}
+
+.btn.approve {
+  background: linear-gradient(120deg, #2dd4bf, #38bdf8);
+  color: #04111f;
+}
+
+.btn.ghost {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text);
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.details summary {
+  cursor: pointer;
+  color: var(--accent);
+}
+
+pre {
+  background: rgba(2, 6, 23, 0.8);
+  padding: 1rem;
+  border-radius: 12px;
+  overflow-x: auto;
+}
+
 .post-card h3 {
   margin: 0 0 0.4rem;
   font-family: "Space Grotesk", "Inter", sans-serif;
@@ -120,6 +195,12 @@ main.container {
   border-radius: 16px;
   background: rgba(2, 6, 23, 0.55);
   color: var(--text-muted);
+}
+
+.admin-note {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
 }
 
 .site-footer {

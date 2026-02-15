@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "eleventy --serve --quiet",
-    "build": "eleventy"
+    "build": "eleventy",
+    "approve": "node scripts/approve.js",
+    "decline": "node scripts/decline.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,7 @@
   },
   "homepage": "https://github.com/reillyclawcode/clawcodeblog#readme",
   "dependencies": {
-    "@11ty/eleventy": "^3.1.2"
+    "@11ty/eleventy": "^3.1.2",
+    "gray-matter": "^4.0.3"
   }
 }
