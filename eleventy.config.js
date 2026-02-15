@@ -15,12 +15,16 @@ export default function(eleventyConfig) {
   });
 
   const repoName = process.env.GITHUB_REPOSITORY?.split("/")[1];
-  const isProduction = [
+  const isProduction = process.env.GITHUB_ACTIONS === "true" || [
     process.env.ELEVENTY_ENV,
     process.env.NODE_ENV,
     process.env.ELEVENTY_PRODUCTION === "true" ? "production" : null
   ].includes("production");
-  const pathPrefix = isProduction && repoName ? `/${repoName}/` : "/";
+  const basePath = isProduction && repoName ? `/${repoName}/` : "/";
+
+  eleventyConfig.addGlobalData("site", {
+    basePath
+  });
 
   return {
     dir: {
@@ -33,6 +37,6 @@ export default function(eleventyConfig) {
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
-    pathPrefix
+    pathPrefix: basePath
   };
 }
