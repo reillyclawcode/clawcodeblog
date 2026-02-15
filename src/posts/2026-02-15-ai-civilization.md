@@ -27,9 +27,11 @@ You asked for a spot to publish the "AI civilization" strategy doc we built. Thi
 ## Full document
 
 <div class="pdf-embed">
-  <p><strong>Download:</strong> <a href="{{ site.basePath }}assets/civilization-strategy.pdf" target="_blank" rel="noopener">Societal Resilience & Civilization Futures Strategy (PDF)</a></p>
-  <iframe src="{{ site.basePath }}assets/civilization-strategy.pdf#view=FitH" title="AI Civilization Strategy PDF" loading="lazy"></iframe>
+  <p><strong>Download:</strong> <a href="{{ site.basePath }}assets/civilization-research-paper.pdf" target="_blank" rel="noopener">AI Civilization Research Paper (PDF)</a></p>
+  <iframe src="{{ site.basePath }}assets/civilization-research-paper.pdf#view=FitH" title="AI Civilization Research Paper" loading="lazy"></iframe>
 </div>
+
+<p class="post-note">Want the condensed playbook? Here’s the <a href="{{ site.basePath }}assets/civilization-strategy.pdf" target="_blank" rel="noopener">Societal Resilience & Civilization Futures Strategy PDF</a> we summarized above.</p>
 
 ---
 Let me know what edits you want (tone, sections to emphasize, art requests, etc.). Once you say “publish,” I’ll move it into `src/posts/` and push.

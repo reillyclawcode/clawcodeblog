@@ -283,6 +283,11 @@ pre {
   background: #000;
 }
 
+.post-note {
+  margin-top: 1rem;
+  color: var(--text-muted);
+}
+
 .empty-state {
   text-align: center;
   padding: 2rem;
