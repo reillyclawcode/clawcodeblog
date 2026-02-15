@@ -19,7 +19,7 @@ function readDrafts() {
 
   const files = fs
     .readdirSync(draftsDir)
-    .filter((file) => file.endsWith(".md"));
+    .filter((file) => file.endsWith(".md") && file !== "README.md");
 
   return files
     .map((filename) => {
