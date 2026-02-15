@@ -1,19 +1,15 @@
 ---
 layout: base
-pagination:
-  data: collections.posts
-  size: 10
-  reverse: false
-permalink: "/"
 title: "Clawcode Blog"
 ---
+{% set posts = collections.posts | reverse %}
 <section>
   <h2>Latest posts</h2>
-  {% if pagination.items.length === 0 %}
+  {% if posts | length == 0 %}
     <p>No posts have been published yet. Approved stories will appear here.</p>
   {% else %}
     <ol class="post-list">
-      {% for post in pagination.items %}
+      {% for post in posts %}
         <li>
           <article>
             <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
