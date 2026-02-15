@@ -7,6 +7,14 @@ export default function(eleventyConfig) {
     });
   });
 
+  const repoName = process.env.GITHUB_REPOSITORY?.split("/")[1];
+  const isProduction = [
+    process.env.ELEVENTY_ENV,
+    process.env.NODE_ENV,
+    process.env.ELEVENTY_PRODUCTION === "true" ? "production" : null
+  ].includes("production");
+  const pathPrefix = isProduction && repoName ? `/${repoName}/` : "/";
+
   return {
     dir: {
       input: "src",
@@ -17,6 +25,7 @@ export default function(eleventyConfig) {
     templateFormats: ["md", "njk", "html"],
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
-    dataTemplateEngine: "njk"
+    dataTemplateEngine: "njk",
+    pathPrefix
   };
 }
