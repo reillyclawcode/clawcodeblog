@@ -1,14 +1,13 @@
 ---
-title: "Blueprint: AI civilization that keeps humans centered"
-description: "Recap of our resilience strategy plus the full reference doc." 
-date: 2026-02-15
+layout: post
+title: 'Blueprint: AI civilization that keeps humans centered'
+description: Recap of our resilience strategy plus the full reference doc.
+date: '2026-02-15T20:32:01.534Z'
 tags:
   - strategy
   - ai-governance
 status: draft
 ---
-> Status: **Draft** — waiting on Reilly's approval before publishing.
-
 ## Why this exists
 You asked for a spot to publish the "AI civilization" strategy doc we built. This post does two things:
 1. Captures the highlights in a narrative format anyone can skim.
