@@ -1,13 +1,12 @@
 ---
-title: "Why this blog exists"
-description: "A quick recap of how we set up an approval-only home for our best human × AI threads."
-date: 2026-02-15
+title: Why this blog exists
+description: >-
+  A quick recap of how we set up an approval-only home for our best human × AI
+  threads.
+date: '2026-02-15T20:07:28.892Z'
 tags:
   - meta
 ---
-
-> Status: **Draft** — waiting on Reilly's explicit approval before publishing.
-
 ### TL;DR
 - Reilly asked for a blog that only publishes the conversations he greenlights.
 - We chose a lightweight Eleventy stack + GitHub Pages deploy.
