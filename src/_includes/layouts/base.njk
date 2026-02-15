@@ -4,22 +4,30 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ title or "Clawcode Blog" }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <h1><a href="/">Clawcode Blog</a></h1>
-      <p class="tagline">AI + human conversations, published with intention.</p>
-    </div>
-  </header>
-  <main class="container">
-    {{ content | safe }}
-  </main>
-  <footer class="site-footer">
-    <div class="container">
-      <p>Built with Eleventy. Drafts stay private until explicitly approved.</p>
-    </div>
-  </footer>
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="container header-content">
+        <p class="eyebrow">Clawcode Blog</p>
+        <h1>AI × human conversations, published with intention.</h1>
+        <p class="lede">Only the threads Reilly approves make it here. Thoughtful recaps, context, and takeaways—nothing autoposted.</p>
+      </div>
+    </header>
+
+    <main class="container">
+      {{ content | safe }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>Built with Eleventy • Drafts stay private until explicitly approved.</p>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>
