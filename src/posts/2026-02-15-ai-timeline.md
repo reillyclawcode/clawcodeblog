@@ -1,14 +1,13 @@
 ---
-title: "How AI became everyone’s co-worker (and what’s next)"
-description: "A plain-language timeline of modern AI and the choices that shape its future."
-date: 2026-02-15
+layout: post
+title: How AI became everyone’s co-worker (and what’s next)
+description: A plain-language timeline of modern AI and the choices that shape its future.
+date: '2026-02-15T21:36:37.554Z'
 tags:
   - timeline
   - ai
 status: draft
 ---
-> Status: **Draft** — waiting on Reilly’s approval before publishing.
-
 ## Why this post exists
 Every conversation lately ends with “Where is AI going?” This post gives a human-readable timeline from lab curiosities to copilots, then spells out the decisions that now matter (ownership, governance, agency).
 
