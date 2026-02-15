@@ -41,3 +41,31 @@ permalink: "/admin/index.html"
 </section>
 
 <script src="{{ site.basePath }}assets/admin.js" type="module"></script>
+
+<section>
+  <h2 class="section-title">Published posts</h2>
+  {% if postsList | length == 0 %}
+    <div class="empty-state">
+      <p>No posts yet.</p>
+    </div>
+  {% else %}
+    <div class="drafts-stack">
+      {% for post in postsList %}
+        <article class="draft-card">
+          <header>
+            <p class="draft-tag">Live</p>
+            <h3>{{ post.title }}</h3>
+            <p class="post-meta">{{ post.date | formatDate('MMM d, yyyy') }}</p>
+          </header>
+          {% if post.description %}
+            <p>{{ post.description }}</p>
+          {% endif %}
+          <div class="draft-actions post-actions">
+            <button class="btn ghost" data-command="npm run remove-post -- {{ post.filename }}">Archive / delete</button>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  {% endif %}
+</section>
+

@@ -112,6 +112,21 @@ main.container {
   box-shadow: 0 20px 60px rgba(8, 15, 40, 0.4);
 }
 
+.post-actions {
+  margin-top: 1rem;
+}
+
+.post-actions button {
+  background: transparent;
+  border: 1px solid rgba(248, 113, 113, 0.5);
+  color: #fecaca;
+}
+
+.post-actions button:hover {
+  border-color: rgba(248, 113, 113, 0.9);
+  color: white;
+}
+
 .draft-tag {
   text-transform: uppercase;
   font-size: 0.7rem;
