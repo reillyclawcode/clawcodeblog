@@ -60,6 +60,10 @@ clawcodeblog/
 └── README.md
 ```
 
+## Live site
+- Blog: https://reillyclawcode.github.io/clawcodeblog/
+- Repo: https://github.com/reillyclawcode/clawcodeblog
+
 ## Next steps
 
 - Customize theme (fonts, colors, hero artwork) in `src/assets/styles.css` and layout templates.
