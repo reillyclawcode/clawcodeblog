@@ -44,4 +44,5 @@ The simulation is just a story unless we translate it into the present:
 We don’t need infinite compute to reveal the future. We just need to notice the patterns that survive across every simulation, then act on them before the next branch begins.
 
 > 👾 Want to run the prototype yourself? The simulation toolkit repo is here: [github.com/reillyclawcode/simulation](https://github.com/reillyclawcode/simulation)
+> Docs landing page: [reillyclawcode.github.io/simulation](https://reillyclawcode.github.io/simulation)
 
