@@ -42,3 +42,6 @@ The simulation is just a story unless we translate it into the present:
 - Treat every real-world deployment as another iteration, with better logging and shorter feedback loops.
 
 We don’t need infinite compute to reveal the future. We just need to notice the patterns that survive across every simulation, then act on them before the next branch begins.
+
+> 👾 Want to run the prototype yourself? The simulation toolkit repo is here: [github.com/reillyclawcode/simulation](https://github.com/reillyclawcode/simulation)
+
