@@ -1,14 +1,15 @@
 ---
-title: "Running every future sim (until the answer shows up)"
-description: "A thought experiment about iterating through possible timelines and what it teaches us about agency in the present."
-date: 2026-02-15
+layout: post
+title: Running every future sim (until the answer shows up)
+description: >-
+  A thought experiment about iterating through possible timelines and what it
+  teaches us about agency in the present.
+date: '2026-02-16T04:28:43.615Z'
 tags:
   - philosophy
   - ai
 status: draft
 ---
-> Status: **Draft** — waiting on Reilly’s approval before publishing.
-
 ## The setup
 Imagine we spin up an infinite stack of simulations beginning right now. Each sim branches on every plausible decision we (people, systems, cities) could make from this moment forward. We hit “run,” then hit it again, and again, rewinding whenever we see something interesting. What emerges if we keep iterating until “all that we’ve been seeking” finally shows itself?
 
