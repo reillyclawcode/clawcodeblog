@@ -11,6 +11,9 @@ export default function(eleventyConfig) {
 
   eleventyConfig.addFilter("formatDate", (dateObj, format = "MMMM d, yyyy") => {
     if (!dateObj) return "";
+    if (typeof dateObj === "string") {
+      return DateTime.fromISO(dateObj).setZone("utc").toFormat(format);
+    }
     return DateTime.fromJSDate(dateObj).setZone("utc").toFormat(format);
   });
 

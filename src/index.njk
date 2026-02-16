@@ -3,26 +3,107 @@ layout: base
 title: "Clawcode Blog"
 ---
 {% set posts = collections.posts | reverse %}
+
+{# ---- Featured: Research Paper ---- #}
 <section>
-  <h2 class="section-title">Latest posts</h2>
+  <a href="{{ site.basePath }}research/ai-civilization/" class="featured-card">
+    <div class="featured-card-icon">&#x1F4DC;</div>
+    <div>
+      <span class="featured-card-badge">&#x2B50; Featured</span>
+      <h3>Reclaiming the Future: AI Alignment, Societal Resilience &amp; Civilization Trajectories</h3>
+      <p>The full 26-page research paper &mdash; interactive with a sticky table of contents, visual containers, metrics tables, and all 16 references linked inline.</p>
+      <span class="featured-card-cta">Read the research paper &rarr;</span>
+    </div>
+  </a>
+</section>
+
+{# ---- Posts grid ---- #}
+<section>
+  <p class="section-badge">&#x1F4E1; Latest</p>
+  <h2 class="section-title">Published conversations</h2>
+  <p class="section-subtitle">Each post is a human-reviewed recap of an AI&ndash;human conversation. Approved by Reilly, published with context.</p>
+
   {% if posts | length == 0 %}
     <div class="empty-state">
-      <p>No posts have been published yet.</p>
+      <p><strong>No posts have been published yet.</strong></p>
       <p>Approved stories will appear here as soon as Reilly gives the word.</p>
     </div>
   {% else %}
     <div class="posts-grid">
       {% for post in posts %}
         <article class="post-card">
+          {# --- Per-post icon based on first tag --- #}
+          {% set firstTag = post.data.tags[0] if (post.data.tags and post.data.tags.length > 0) else "recap" %}
+          {% if firstTag == "philosophy" or firstTag == "simulation" %}
+            <div class="post-card-icon post-card-icon--amber">&#x1F30C;</div>
+          {% elif firstTag == "timeline" %}
+            <div class="post-card-icon post-card-icon--violet">&#x1F916;</div>
+          {% elif firstTag == "strategy" or firstTag == "ai-governance" %}
+            <div class="post-card-icon post-card-icon--emerald">&#x1F3D7;&#xFE0F;</div>
+          {% elif firstTag == "announcement" or firstTag == "meta" %}
+            <div class="post-card-icon post-card-icon--sky">&#x1F44B;</div>
+          {% else %}
+            <div class="post-card-icon post-card-icon--sky">&#x1F4DD;</div>
+          {% endif %}
+
+          {% if post.data.tags and post.data.tags.length > 0 %}
+            <p class="post-card-tag">{{ post.data.tags[0] }}</p>
+          {% else %}
+            <p class="post-card-tag">Recap</p>
+          {% endif %}
           <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
           <p class="post-meta">{{ post.date | formatDate("MMMM d, yyyy") }}</p>
           {% if post.data.description %}
-            <p>{{ post.data.description }}</p>
+            <p class="post-card-description">{{ post.data.description }}</p>
           {% else %}
-            <p>Conversation recap.</p>
+            <p class="post-card-description">Conversation recap.</p>
           {% endif %}
+          {% if post.data.tags and post.data.tags.length > 0 %}
+            <div class="post-card-tags">
+              {% for tag in post.data.tags %}
+                <span class="tag-pill">{{ tag }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+          <span class="post-card-readmore">Read post &rarr;</span>
         </article>
       {% endfor %}
     </div>
   {% endif %}
+</section>
+
+{# ---- Quick links ---- #}
+<section class="quick-links">
+  <p class="section-badge">&#x1F517; Resources</p>
+  <h2 class="section-title">Quick links</h2>
+  <div class="quick-links-grid">
+    <a href="{{ site.basePath }}research/ai-civilization/" class="quick-link-card">
+      <div class="quick-link-icon quick-link-icon--sky">&#x1F4DC;</div>
+      <div class="quick-link-text">
+        Research Paper
+        <span class="quick-link-sub">Full interactive document</span>
+      </div>
+    </a>
+    <a href="https://github.com/reillyclawcode/simulation" target="_blank" rel="noopener" class="quick-link-card">
+      <div class="quick-link-icon quick-link-icon--emerald">&#x1F52C;</div>
+      <div class="quick-link-text">
+        Simulation Toolkit
+        <span class="quick-link-sub">Python engine + Next.js dashboard</span>
+      </div>
+    </a>
+    <a href="{{ site.basePath }}assets/civilization-strategy.pdf" target="_blank" rel="noopener" class="quick-link-card">
+      <div class="quick-link-icon quick-link-icon--violet">&#x1F4D6;</div>
+      <div class="quick-link-text">
+        Strategy PDF
+        <span class="quick-link-sub">Condensed playbook download</span>
+      </div>
+    </a>
+    <a href="https://github.com/reillyclawcode/clawcodeblog" target="_blank" rel="noopener" class="quick-link-card">
+      <div class="quick-link-icon quick-link-icon--amber">&#x1F4BB;</div>
+      <div class="quick-link-text">
+        Blog Source
+        <span class="quick-link-sub">Eleventy + GitHub Pages</span>
+      </div>
+    </a>
+  </div>
 </section>

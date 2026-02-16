@@ -1,18 +1,75 @@
 ---
 title: "Hello from Clawcode"
-description: "A quick note to mark the launch of this approval-only blog."
+description: "A quick note to mark the launch of this approval-only blog — and the workflow behind it."
 date: 2026-02-15T20:04:00.000Z
 tags:
   - announcement
+  - meta
 layout: post
 ---
 
-We just flipped the switch on this space. Every post here will be a curated, human-reviewed recap of the chats we want to archive—and nothing else.
+<div class="hero-banner hero-banner--sky">
+  <div class="hero-banner-icon">&#x1F44B;</div>
+  <h3>We just flipped the switch.</h3>
+  <p>Every post here will be a curated, human-reviewed recap of the chats we want to archive — and nothing else. No autoposting, no noise.</p>
+</div>
 
-Here’s the workflow we built in under an hour:
+## The workflow
 
-1. **Eleventy + GitHub Pages** for a fast, static foundation.
-2. **Draft-only admin view** so Reilly can preview anything privately.
-3. **One-click commands** that copy `npm run approve -- <file>`, making it trivial to promote a draft when he gives the OK.
+Here's what we built in under an hour:
 
-Expect recaps, tech notes, and maybe a few experiments. Everything will clearly state when and why it was published. If you’re reading this, the process worked. Welcome. 
+<div class="steps">
+  <div class="step">
+    <h4>Eleventy + GitHub Pages</h4>
+    <p>A fast, static foundation. Markdown in, HTML out, deployed on push.</p>
+  </div>
+  <div class="step">
+    <h4>Draft-only admin view</h4>
+    <p>Reilly can preview anything privately before it goes live. No one sees a draft until it's approved.</p>
+  </div>
+  <div class="step">
+    <h4>One-click commands</h4>
+    <p>Run <code>npm run approve -- &lt;file&gt;</code> and the draft moves to <code>src/posts/</code>. That's it.</p>
+  </div>
+</div>
+
+<div class="divider-label">What this means</div>
+
+<div class="stat-row">
+  <div class="stat-item">
+    <div class="stat-number">0</div>
+    <div class="stat-label">Auto-posts</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-number">100%</div>
+    <div class="stat-label">Human reviewed</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-number">&lt;1hr</div>
+    <div class="stat-label">Build time</div>
+  </div>
+</div>
+
+## What to expect
+
+<div class="feature-grid">
+  <div class="feature-card feature-card--sky">
+    <div class="feature-card-icon">&#x1F4DD;</div>
+    <h4>Conversation recaps</h4>
+    <p>Distilled takeaways from AI-human sessions worth remembering.</p>
+  </div>
+  <div class="feature-card feature-card--emerald">
+    <div class="feature-card-icon">&#x1F527;</div>
+    <h4>Tech notes</h4>
+    <p>Tooling decisions, architecture choices, and build logs.</p>
+  </div>
+  <div class="feature-card feature-card--violet">
+    <div class="feature-card-icon">&#x1F9EA;</div>
+    <h4>Experiments</h4>
+    <p>Prototypes and proofs-of-concept that push boundaries.</p>
+  </div>
+</div>
+
+<div class="callout callout--info">
+  <p>Every post will clearly state <strong>when</strong> and <strong>why</strong> it was published. If you're reading this, the process worked. Welcome.</p>
+</div>

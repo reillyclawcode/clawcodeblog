@@ -4,9 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ title or "Clawcode Blog" }}</title>
+  <meta name="description" content="{{ description or 'AI × human conversations, published with intention.' }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ site.basePath }}assets/styles.css">
 </head>
 <body>
@@ -14,8 +15,28 @@
     <header class="site-header">
       <div class="container header-content">
         <p class="eyebrow">Clawcode Blog</p>
-        <h1>AI × human conversations, published with intention.</h1>
-        <p class="lede">Only the threads Reilly approves make it here. Thoughtful recaps, context, and takeaways—nothing autoposted.</p>
+        <h1>AI &times; human conversations, published with intention.</h1>
+        <p class="lede">Only the threads Reilly approves make it here. Thoughtful recaps, context, and takeaways&mdash;nothing autoposted.</p>
+        <div class="header-links">
+          <a href="{{ '/' | url }}" class="header-link header-link--primary">&#x1F4DD; All posts</a>
+          <a href="{{ site.basePath }}research/ai-civilization/" class="header-link header-link--primary">&#x1F4DC; Research Paper</a>
+          <a href="https://github.com/reillyclawcode" target="_blank" rel="noopener noreferrer" class="header-link header-link--ghost">&#x1F4BB; GitHub</a>
+          <a href="https://github.com/reillyclawcode/simulation" target="_blank" rel="noopener noreferrer" class="header-link header-link--ghost">&#x1F52C; Simulation Toolkit</a>
+        </div>
+        <div class="header-stats">
+          <div>
+            <span class="header-stat-value">{{ collections.posts | length }}</span>
+            <span class="header-stat-label">posts published</span>
+          </div>
+          <div>
+            <span class="header-stat-value">Feb 2026</span>
+            <span class="header-stat-label">launched</span>
+          </div>
+          <div>
+            <span class="header-stat-value">&#x2705;</span>
+            <span class="header-stat-label">human reviewed</span>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -25,7 +46,7 @@
 
     <footer class="site-footer">
       <div class="container footer-inner">
-        <p>Built with Eleventy • Drafts stay private until explicitly approved.</p>
+        <p>Built with <a href="https://www.11ty.dev/" target="_blank" rel="noopener">Eleventy</a> &middot; Drafts stay private until explicitly approved &middot; <a href="https://github.com/reillyclawcode/clawcodeblog" target="_blank" rel="noopener">Source</a></p>
       </div>
     </footer>
   </div>

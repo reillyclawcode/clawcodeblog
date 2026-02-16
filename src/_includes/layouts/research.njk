@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title or "Clawcode Blog" }}</title>
+  <meta name="description" content="{{ description or 'AI × human conversations, published with intention.' }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ site.basePath }}assets/styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header" style="padding: 2.5rem 0 2rem;">
+      <div class="container header-content">
+        <p class="eyebrow">Clawcode Research</p>
+        <h1 style="font-size: clamp(1.6rem, 4vw, 2.6rem);">{{ title }}</h1>
+        <p class="lede">{{ description }}</p>
+        <div class="header-links" style="margin-top: 1rem;">
+          <a href="{{ '/' | url }}" class="header-link header-link--primary">&#x1F3E0; Blog home</a>
+          <a href="{{ site.basePath }}posts/2026-02-15-ai-civilization/" class="header-link header-link--primary">&#x1F3D7;&#xFE0F; Blueprint post</a>
+          <a href="{{ site.basePath }}posts/2026-02-15-future-simulation/" class="header-link header-link--ghost">&#x1F30C; Simulation post</a>
+          {% if pdfPath %}
+            <a href="{{ site.basePath }}{{ pdfPath }}" target="_blank" rel="noopener" class="header-link header-link--ghost">&#x1F4E5; Download PDF</a>
+          {% endif %}
+        </div>
+      </div>
+    </header>
+
+    <button class="toc-mobile-toggle" onclick="document.querySelector('.toc-sidebar').classList.toggle('open')">
+      Table of Contents
+    </button>
+
+    <div class="research-shell">
+      <nav class="toc-sidebar" aria-label="Table of Contents">
+        <p class="toc-heading">Contents</p>
+        <div class="toc-progress"><div class="toc-progress-bar" id="toc-progress-bar"></div></div>
+        {{ tocHtml | safe }}
+      </nav>
+
+      <article class="research-content">
+        <div class="post-content">
+          {{ content | safe }}
+        </div>
+      </article>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>Built with <a href="https://www.11ty.dev/" target="_blank" rel="noopener">Eleventy</a> &middot; Drafts stay private until explicitly approved &middot; <a href="https://github.com/reillyclawcode/clawcodeblog" target="_blank" rel="noopener">Source</a></p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Reading progress bar
+    (function() {
+      var bar = document.getElementById('toc-progress-bar');
+      if (!bar) return;
+      function update() {
+        var h = document.documentElement;
+        var pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+        bar.style.width = Math.min(100, Math.max(0, pct)) + '%';
+      }
+      window.addEventListener('scroll', update, { passive: true });
+      update();
+    })();
+
+    // Highlight active TOC link
+    (function() {
+      var links = document.querySelectorAll('.toc-list a');
+      var headings = [];
+      links.forEach(function(a) {
+        var id = a.getAttribute('href');
+        if (id && id.startsWith('#')) {
+          var el = document.querySelector(id);
+          if (el) headings.push({ el: el, link: a });
+        }
+      });
+      function highlight() {
+        var scroll = window.scrollY + 80;
+        var active = null;
+        for (var i = headings.length - 1; i >= 0; i--) {
+          if (headings[i].el.offsetTop <= scroll) { active = headings[i]; break; }
+        }
+        links.forEach(function(a) { a.classList.remove('active'); });
+        if (active) active.link.classList.add('active');
+      }
+      window.addEventListener('scroll', highlight, { passive: true });
+      highlight();
+    })();
+
+    // Mobile TOC: close on link click
+    document.querySelectorAll('.toc-list a').forEach(function(a) {
+      a.addEventListener('click', function() {
+        document.querySelector('.toc-sidebar').classList.remove('open');
+      });
+    });
+  </script>
+</body>
+</html>

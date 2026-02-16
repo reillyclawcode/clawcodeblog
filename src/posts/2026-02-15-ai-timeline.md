@@ -1,45 +1,115 @@
 ---
 layout: post
-title: How AI became everyone’s co-worker (and what’s next)
-description: A plain-language timeline of modern AI and the choices that shape its future.
-date: '2026-02-15T21:36:37.554Z'
+title: "How AI became everyone's co-worker (and what's next)"
+description: "A plain-language timeline of modern AI — from lab curiosities to copilots — and the decisions that shape its future."
+date: "2026-02-15T21:36:37.554Z"
 tags:
   - timeline
   - ai
-status: draft
+  - governance
 ---
-## Why this post exists
-Every conversation lately ends with “Where is AI going?” This post gives a human-readable timeline from lab curiosities to copilots, then spells out the decisions that now matter (ownership, governance, agency).
+
+<div class="hero-banner hero-banner--violet">
+  <div class="hero-banner-icon">&#x1F916;</div>
+  <h3>From lab curiosities to copilots.</h3>
+  <p>Every conversation lately ends with "Where is AI going?" This post gives a human-readable timeline, then spells out the decisions that now matter — ownership, governance, agency.</p>
+</div>
 
 ## Quick timeline
 
-| Era | What it felt like | What actually happened |
-| --- | --- | --- |
-| **1950s–1980s: Labs & logic** | Robots were sci-fi mascots. | Symbolic AI, perceptrons, expert systems; funding thawed and froze twice. |
-| **1990s–2015: Narrow AI quietly helped** | Search, spam filters, Netflix recs just “worked.” | Machine learning crushed specific tasks thanks to more data + cheaper compute. |
-| **2016–2022: AI leaves the lab** | Voice assistants, face ID, AlphaGo headlines. | Deep learning scaled; transformers + GPUs unlocked translation, image captioning, etc. |
-| **2023–2025: Generative boom** | ChatGPT, Midjourney, Copilot made AI feel creative. | Foundation models trained on web-scale corpora; inference costs dropped ~10x/year. |
-| **2026+: Copilots, councils, co-ops** | We’re entering this stage now. | Multimodal agents embed into every workflow; governance experiments race to catch up. |
+<div class="timeline">
+  <div class="timeline-item">
+    <p class="timeline-era">1950s &ndash; 1980s</p>
+    <p class="timeline-title">Labs & logic</p>
+    <p class="timeline-text">Robots were sci-fi mascots. Under the hood: symbolic AI, perceptrons, expert systems. Funding thawed and froze twice.</p>
+  </div>
+  <div class="timeline-item">
+    <p class="timeline-era">1990s &ndash; 2015</p>
+    <p class="timeline-title">Narrow AI quietly helped</p>
+    <p class="timeline-text">Search, spam filters, Netflix recs just "worked." Machine learning crushed specific tasks thanks to more data + cheaper compute.</p>
+  </div>
+  <div class="timeline-item">
+    <p class="timeline-era">2016 &ndash; 2022</p>
+    <p class="timeline-title">AI leaves the lab</p>
+    <p class="timeline-text">Voice assistants, face ID, AlphaGo headlines. Deep learning scaled; transformers + GPUs unlocked translation, image captioning, and more.</p>
+  </div>
+  <div class="timeline-item">
+    <p class="timeline-era">2023 &ndash; 2025</p>
+    <p class="timeline-title">Generative boom</p>
+    <p class="timeline-text">ChatGPT, Midjourney, Copilot made AI feel creative. Foundation models trained on web-scale corpora; inference costs dropped ~10x/year.</p>
+  </div>
+  <div class="timeline-item">
+    <p class="timeline-era">2026+</p>
+    <p class="timeline-title">Copilots, councils, co-ops</p>
+    <p class="timeline-text">We're entering this stage now. Multimodal agents embed into every workflow; governance experiments race to catch up.</p>
+  </div>
+</div>
 
 ## Why average people should care
-1. **Cost of prediction keeps dropping.** Each breakthrough made “what happens next?” cheaper to answer. That’s why AI now drafts emails, plans trips, and codes features in seconds.
-2. **Tasks change faster than whole jobs disappear.** AI autocompletes text, code, legal boilerplate. People still provide judgment, taste, accountability. The fight is over who owns the tools and how gains are shared.
-3. **Governance is finally real.** EU AI Act, U.S. executive orders, civic AI charters, safety audits. We can choose whether AI acts like public infrastructure or a gated utility.
-4. **Next frontier = agent orchestration.** Current chatbots answer questions; next-gen agents run multi-step missions (book venues, reconcile ledgers). That demands better memory, verification layers, and resource caps.
 
-## What “good” looks like
-- **Civic AI charters** that tie deployments to measurable human benefit (jobs, autonomy, ecological regeneration).
-- **Transition OS + civic dividends** so productivity gains fund mobility, not extraction.
-- **Participatory audits and councils** where citizens, labor orgs, and builders co-design rules.
-- **Compute co-ops and benefit corps** so the infrastructure itself has public-purpose duties.
+<div class="feature-grid">
+  <div class="feature-card feature-card--sky">
+    <div class="feature-card-icon">&#x1F4C9;</div>
+    <h4>Cost of prediction keeps dropping</h4>
+    <p>Each breakthrough made "what happens next?" cheaper to answer. That's why AI now drafts emails, plans trips, and codes features in seconds.</p>
+  </div>
+  <div class="feature-card feature-card--emerald">
+    <div class="feature-card-icon">&#x1F504;</div>
+    <h4>Tasks change faster than jobs disappear</h4>
+    <p>AI autocompletes text, code, legal boilerplate. People still provide judgment, taste, accountability. The fight is over who owns the tools.</p>
+  </div>
+  <div class="feature-card feature-card--violet">
+    <div class="feature-card-icon">&#x2696;&#xFE0F;</div>
+    <h4>Governance is finally real</h4>
+    <p>EU AI Act, U.S. executive orders, civic AI charters, safety audits. We can choose whether AI acts like public infrastructure or a gated utility.</p>
+  </div>
+  <div class="feature-card feature-card--amber">
+    <div class="feature-card-icon">&#x1F9E0;</div>
+    <h4>Next frontier = agent orchestration</h4>
+    <p>Current chatbots answer questions; next-gen agents run multi-step missions. That demands better memory, verification layers, and resource caps.</p>
+  </div>
+</div>
+
+## What "good" looks like
+
+<div class="steps">
+  <div class="step">
+    <h4>Civic AI charters</h4>
+    <p>Tie deployments to measurable human benefit — jobs, autonomy, ecological regeneration.</p>
+  </div>
+  <div class="step">
+    <h4>Transition OS + civic dividends</h4>
+    <p>Productivity gains fund mobility, not extraction.</p>
+  </div>
+  <div class="step">
+    <h4>Participatory audits and councils</h4>
+    <p>Citizens, labor orgs, and builders co-design rules.</p>
+  </div>
+  <div class="step">
+    <h4>Compute co-ops and benefit corps</h4>
+    <p>The infrastructure itself has public-purpose duties.</p>
+  </div>
+</div>
 
 ## What happens if we sleep on it
-- A handful of foundation-model rentiers charge API tolls while monetizing our data with no reciprocity.
-- Automation amplifies inequality because the dividend flows only to capital owners.
-- Safety gets outsourced to PR teams instead of transparent, participatory review.
 
-## Call to action
-Most people engage with AI through the apps on their phone; they don’t realize there’s a governance window right now. Share this post with anyone who thinks AI is “just a chatbot.” The decisions made in 2026 will decide whether we get co-workers that broaden opportunity—or black-box landlords that meter cognition.
+<div class="callout callout--danger">
+  <p><strong>API tollbooths:</strong> A handful of foundation-model rentiers charge API tolls while monetizing our data with no reciprocity.</p>
+</div>
 
----
-Let me know if you want art (timeline graphic, quote cards) or deeper dives into any era. Once approved I’ll move it into `src/posts/` and push.
+<div class="callout callout--warning">
+  <p><strong>Inequality amplified:</strong> Automation amplifies inequality because the dividend flows only to capital owners.</p>
+</div>
+
+<div class="callout callout--danger">
+  <p><strong>Safety theater:</strong> Safety gets outsourced to PR teams instead of transparent, participatory review.</p>
+</div>
+
+<div class="divider-label">Call to action</div>
+
+<div class="hero-banner hero-banner--sky">
+  <div class="hero-banner-icon">&#x1F4E2;</div>
+  <h3>The governance window is open right now.</h3>
+  <p>Most people engage with AI through the apps on their phone; they don't realize there's a governance window right now. Share this post with anyone who thinks AI is "just a chatbot."</p>
+  <p>The decisions made in 2026 will decide whether we get co-workers that broaden opportunity — or black-box landlords that meter cognition.</p>
+</div>

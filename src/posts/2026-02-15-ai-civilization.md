@@ -1,37 +1,125 @@
 ---
 layout: post
-title: 'Blueprint: AI civilization that keeps humans centered'
-description: Recap of our resilience strategy plus the full reference doc.
-date: '2026-02-15T20:32:01.534Z'
+title: "Blueprint: AI civilization that keeps humans centered"
+description: "Recap of our resilience strategy — civic charters, economic scaffolds, planetary repair, and the full reference doc embedded below."
+date: "2026-02-15T20:32:01.534Z"
 tags:
   - strategy
   - ai-governance
-status: draft
+  - economics
 ---
-## Why this exists
-You asked for a spot to publish the "AI civilization" strategy doc we built. This post does two things:
-1. Captures the highlights in a narrative format anyone can skim.
-2. Embeds the full source document so readers can dive as deep as they want.
+
+<div class="hero-banner hero-banner--emerald">
+  <div class="hero-banner-icon">&#x1F3D7;&#xFE0F;</div>
+  <h3>A blueprint for keeping humans at the center of AI-driven civilization.</h3>
+  <p>This post captures the highlights in a narrative format anyone can skim — and embeds the full source document so you can dive as deep as you want.</p>
+</div>
 
 ## TL;DR of the playbook
-- **Intent for AI:** Tie every deployment to measurable gains in human capability, autonomy, and ecological regeneration. Civic charters, participatory audits, and public dashboards turn that from vibes into governance.
-- **Economic resilience:** Civic dividends funded by AI/compute rents, “Transition OS” for reskilling logistics, cooperative ownership for automation agents, and climate/care job guarantees so people aren’t left behind.
-- **Planetary repair:** Virtual power plants, carbon removal AMCs, biodiversity credit exchanges, and blue-economy ventures—each with transparent MRV and community co-ownership.
-- **Capital stack:** Mission-driven syndicate, civic infra ventures, planetary data commons, and regulation that rewards compliance with the charter.
-- **Future trajectory:** Once crises stabilize, invest in public luxuries, participatory AI councils, off-world industry with biodiversity offsets, and culture/meaning projects.
+
+<div class="feature-grid">
+  <div class="feature-card feature-card--sky">
+    <div class="feature-card-icon">&#x1F3AF;</div>
+    <h4>Intent for AI</h4>
+    <p>Tie every deployment to measurable gains in human capability, autonomy, and ecological regeneration. Civic charters, participatory audits, and public dashboards turn that from vibes into governance.</p>
+  </div>
+  <div class="feature-card feature-card--emerald">
+    <div class="feature-card-icon">&#x1F4B0;</div>
+    <h4>Economic resilience</h4>
+    <p>Civic dividends funded by AI/compute rents, "Transition OS" for reskilling, cooperative ownership for automation agents, and climate/care job guarantees.</p>
+  </div>
+  <div class="feature-card feature-card--violet">
+    <div class="feature-card-icon">&#x1F30D;</div>
+    <h4>Planetary repair</h4>
+    <p>Virtual power plants, carbon removal AMCs, biodiversity credit exchanges, and blue-economy ventures — each with transparent MRV and community co-ownership.</p>
+  </div>
+  <div class="feature-card feature-card--amber">
+    <div class="feature-card-icon">&#x1F4CA;</div>
+    <h4>Capital stack</h4>
+    <p>Mission-driven syndicate, civic infra ventures, planetary data commons, and regulation that rewards charter compliance.</p>
+  </div>
+  <div class="feature-card feature-card--rose">
+    <div class="feature-card-icon">&#x1F52D;</div>
+    <h4>Future trajectory</h4>
+    <p>Once crises stabilize: public luxuries, participatory AI councils, off-world industry with biodiversity offsets, and culture/meaning projects.</p>
+  </div>
+</div>
+
+## The five pillars at a glance
+
+<div class="stat-row">
+  <div class="stat-item">
+    <div class="stat-number">&#x1F3DB;&#xFE0F;</div>
+    <div class="stat-label">Governance</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-number">&#x1F91D;</div>
+    <div class="stat-label">Economy</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-number">&#x1F33F;</div>
+    <div class="stat-label">Planet</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-number">&#x1F4B5;</div>
+    <div class="stat-label">Capital</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-number">&#x1F680;</div>
+    <div class="stat-label">Horizon</div>
+  </div>
+</div>
 
 ## Implementation breadcrumbs
-- **Kanban:** `kanban/ai-civilization.html` (tracks backlog → in-progress → review workstreams).
-- **Immediate experiments:** Prototype Transition OS schema, draft the AI Intent Charter, convene the climate capital syndicate, publish the biodiversity governance whitepaper.
+
+<div class="callout callout--tip">
+  <p><strong>Kanban:</strong> <code>kanban/ai-civilization.html</code> tracks the backlog through in-progress to review workstreams.</p>
+</div>
+
+<div class="divider-label">Immediate experiments</div>
+
+<div class="steps">
+  <div class="step">
+    <h4>Prototype Transition OS schema</h4>
+    <p>Define the data model for portable benefits, reskilling credits, and civic ledger integration.</p>
+  </div>
+  <div class="step">
+    <h4>Draft the AI Intent Charter</h4>
+    <p>Turn abstract principles into auditable, enforceable governance language.</p>
+  </div>
+  <div class="step">
+    <h4>Convene the climate capital syndicate</h4>
+    <p>Identify anchor LPs and define the blended-finance structure for planetary repair investments.</p>
+  </div>
+  <div class="step">
+    <h4>Publish the biodiversity governance whitepaper</h4>
+    <p>Open-source the framework for credit exchanges with community co-ownership baked in.</p>
+  </div>
+</div>
 
 ## Full document
 
-<div class="pdf-embed">
-  <p><strong>Download:</strong> <a href="{{ site.basePath }}assets/civilization-research-paper.pdf" target="_blank" rel="noopener">AI Civilization Research Paper (PDF)</a></p>
-  <iframe src="{{ site.basePath }}assets/civilization-research-paper.pdf#view=FitH" title="AI Civilization Research Paper" loading="lazy"></iframe>
+<div class="hero-banner hero-banner--sky">
+  <div class="hero-banner-icon">&#x1F4DC;</div>
+  <h3>Read the full research paper</h3>
+  <p>The complete 26-page paper is now available as an interactive webpage with a sticky table of contents, visual containers, and all 16 references linked inline.</p>
+  <a href="{{ site.basePath }}research/ai-civilization/" class="cta-link">&#x1F4D6; Read the research paper &rarr;</a>
 </div>
 
-<p class="post-note">Want the condensed playbook? Here’s the <a href="{{ site.basePath }}assets/civilization-strategy.pdf" target="_blank" rel="noopener">Societal Resilience & Civilization Futures Strategy PDF</a> we summarized above.</p>
+<div class="highlight-strip">
+  <div class="highlight-strip-icon">&#x1F4E5;</div>
+  <div class="highlight-strip-body">
+    <h4>Prefer a download?</h4>
+    <p>The original <a href="{{ site.basePath }}assets/civilization-research-paper.pdf" target="_blank" rel="noopener">research paper PDF</a> and <a href="{{ site.basePath }}assets/civilization-strategy.pdf" target="_blank" rel="noopener">condensed strategy PDF</a> are still available.</p>
+  </div>
+</div>
 
----
-Let me know what edits you want (tone, sections to emphasize, art requests, etc.). Once you say “publish,” I’ll move it into `src/posts/` and push.
+## See it in action
+
+<div class="hero-banner hero-banner--amber">
+  <div class="hero-banner-icon">&#x1F52C;</div>
+  <h3>Run every future yourself</h3>
+  <p>We built a simulation toolkit that turns the ideas in this blueprint into something you can scrub through. Twelve policy branches, five tracked metrics, fifty simulated years &mdash; explore what happens when civic dividends, AI charters, and climate capex interact over time.</p>
+  <a href="{{ site.basePath }}posts/2026-02-15-future-simulation/" class="cta-link">&#x1F30C; Read the simulation post &rarr;</a>
+  <a href="https://github.com/reillyclawcode/simulation" target="_blank" rel="noopener" class="cta-link">&#x1F47E; Simulation toolkit on GitHub &rarr;</a>
+</div>
