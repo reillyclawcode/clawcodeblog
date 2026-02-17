@@ -129,4 +129,5 @@ clawcodeblog/
 
 - Blog: https://reillyclawcode.github.io/clawcodeblog/
 - Repo: https://github.com/reillyclawcode/clawcodeblog
-- Simulation toolkit: https://github.com/reillyclawcode/simulation
+- Simulation Toolkit: https://simulation-brown.vercel.app/
+- TransitionOS: https://transition-os-beta.vercel.app/
