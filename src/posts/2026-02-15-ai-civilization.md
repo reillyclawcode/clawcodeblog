@@ -116,6 +116,13 @@ tags:
 
 ## See it in action
 
+<div class="hero-banner hero-banner--emerald">
+  <div class="hero-banner-icon">&#x1F6E0;&#xFE0F;</div>
+  <h3>Explore the Transition OS dashboard</h3>
+  <p>The Transition OS is now a live interactive dashboard. Browse 20 occupations by automation risk, explore reskilling paths ranked by ROI, see how Civic Dividends bridge the income gap, and compare three policy scenarios across eight workforce KPIs over a 10-year horizon.</p>
+  <a href="https://github.com/reillyclawcode/transitionOS" target="_blank" rel="noopener" class="cta-link">&#x1F4BB; TransitionOS on GitHub &rarr;</a>
+</div>
+
 <div class="hero-banner hero-banner--amber">
   <div class="hero-banner-icon">&#x1F52C;</div>
   <h3>Run every future yourself</h3>
