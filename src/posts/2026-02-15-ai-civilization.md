@@ -130,3 +130,19 @@ tags:
   <a href="{{ site.basePath }}posts/2026-02-15-future-simulation/" class="cta-link">&#x1F30C; Read the simulation post &rarr;</a>
   <a href="https://github.com/reillyclawcode/simulation" target="_blank" rel="noopener" class="cta-link">&#x1F47E; Simulation toolkit on GitHub &rarr;</a>
 </div>
+
+<div class="hero-banner hero-banner--sky">
+  <div class="hero-banner-icon">&#x1F30D;</div>
+  <h3>Explore the CivilizationOS dashboard</h3>
+  <p>The resident experience layer — five civic journeys (Join, Vote, Request Support, Earn, Graduate), Civic Dividend modeling, benefits and support services, and 10-year KPI projections for 10 million residents.</p>
+  <a href="{{ site.basePath }}posts/2026-02-16-civilizationos/" class="cta-link">&#x1F4DD; Read the CivilizationOS post &rarr;</a>
+  <a href="https://github.com/reillyclawcode/CivilizationOS" target="_blank" rel="noopener" class="cta-link">&#x1F4BB; CivilizationOS on GitHub &rarr;</a>
+</div>
+
+<div class="hero-banner hero-banner--violet">
+  <div class="hero-banner-icon">&#x1F3DB;&#xFE0F;</div>
+  <h3>Explore the GovernanceOS dashboard</h3>
+  <p>The institutional backbone — Civic AI Charter with three pillars, five citizen assemblies, composable governance modules, AI audit tracking from 10% to 100% coverage, and participatory equity metrics.</p>
+  <a href="{{ site.basePath }}posts/2026-02-16-governanceos/" class="cta-link">&#x1F4DD; Read the GovernanceOS post &rarr;</a>
+  <a href="https://github.com/reillyclawcode/GovernanceOS" target="_blank" rel="noopener" class="cta-link">&#x1F4BB; GovernanceOS on GitHub &rarr;</a>
+</div>

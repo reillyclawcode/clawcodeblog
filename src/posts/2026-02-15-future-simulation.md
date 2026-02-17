@@ -131,3 +131,17 @@ Each replay becomes a lab note:
   <p>We just need to notice the patterns that survive across every simulation, then act on them before the next branch begins.</p>
   <a href="https://github.com/reillyclawcode/simulation" target="_blank" rel="noopener" class="cta-link">&#x1F47E; Run the simulation toolkit &rarr;</a>
 </div>
+
+<div class="hero-banner hero-banner--amber">
+  <div class="hero-banner-icon">&#x1F30D;</div>
+  <h3>Explore the CivilizationOS dashboard</h3>
+  <p>The resident experience layer — five civic journeys, Civic Dividend modeling, benefits and support services, and 10-year KPI projections for 10 million residents.</p>
+  <a href="https://github.com/reillyclawcode/CivilizationOS" target="_blank" rel="noopener" class="cta-link">&#x1F4BB; CivilizationOS on GitHub &rarr;</a>
+</div>
+
+<div class="hero-banner hero-banner--sky">
+  <div class="hero-banner-icon">&#x1F3DB;&#xFE0F;</div>
+  <h3>Explore the GovernanceOS dashboard</h3>
+  <p>The institutional backbone — charter frameworks, citizen assemblies, governance modules, AI audit tracking, and participatory equity metrics.</p>
+  <a href="https://github.com/reillyclawcode/GovernanceOS" target="_blank" rel="noopener" class="cta-link">&#x1F4BB; GovernanceOS on GitHub &rarr;</a>
+</div>
