@@ -73,3 +73,11 @@ Here's what we built in under an hour:
 <div class="callout callout--info">
   <p>Every post will clearly state <strong>when</strong> and <strong>why</strong> it was published. If you're reading this, the process worked. Welcome.</p>
 </div>
+
+<div class="hero-banner hero-banner--emerald">
+  <div class="hero-banner-icon">🌱</div>
+  <h3>Explore the ClimateOS dashboard</h3>
+  <p>Four climate futures from now to 2050 — toggle between aggressive action and worst case to see how temperature, biodiversity, energy, water, food, and forests respond. Scenario-aware analysis beneath every chart.</p>
+  <a href="https://climate-os.vercel.app/" target="_blank" rel="noopener" class="cta-link">🌱 Open ClimateOS dashboard &rarr;</a>
+  <a href="https://github.com/reillyclawcode/ClimateOS" target="_blank" rel="noopener" class="cta-link">💻 ClimateOS on GitHub &rarr;</a>
+</div>

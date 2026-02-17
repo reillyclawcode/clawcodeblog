@@ -153,6 +153,14 @@ Take the **Join** journey as an example. A new resident:
   <a href="https://github.com/reillyclawcode/transitionOS" target="_blank" rel="noopener" class="cta-link">&#x1F4BB; TransitionOS on GitHub &rarr;</a>
 </div>
 
+<div class="hero-banner hero-banner--emerald">
+  <div class="hero-banner-icon">🌱</div>
+  <h3>Explore the ClimateOS dashboard</h3>
+  <p>Four climate futures from now to 2050 — toggle between aggressive action and worst case to see how temperature, biodiversity, energy, water, food, and forests respond. Scenario-aware analysis beneath every chart.</p>
+  <a href="https://climate-os.vercel.app/" target="_blank" rel="noopener" class="cta-link">🌱 Open ClimateOS dashboard &rarr;</a>
+  <a href="https://github.com/reillyclawcode/ClimateOS" target="_blank" rel="noopener" class="cta-link">💻 ClimateOS on GitHub &rarr;</a>
+</div>
+
 <div class="hero-banner hero-banner--sky">
   <div class="hero-banner-icon">&#x1F52C;</div>
   <h3>Run the simulation yourself</h3>
