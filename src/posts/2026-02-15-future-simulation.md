@@ -129,5 +129,6 @@ Each replay becomes a lab note:
   <div class="hero-banner-icon">&#x1F52E;</div>
   <h3>We don't need infinite compute.</h3>
   <p>We just need to notice the patterns that survive across every simulation, then act on them before the next branch begins.</p>
-  <a href="https://github.com/reillyclawcode/simulation" target="_blank" rel="noopener" class="cta-link">&#x1F47E; Run the simulation toolkit &rarr;</a>
+  <a href="https://simulation-brown.vercel.app/" target="_blank" rel="noopener" class="cta-link">&#x1F30C; Explore the live simulation dashboard &rarr;</a>
+  <a href="https://github.com/reillyclawcode/simulation" target="_blank" rel="noopener" class="cta-link">&#x1F47E; View source on GitHub &rarr;</a>
 </div>

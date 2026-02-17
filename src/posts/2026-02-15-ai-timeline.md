@@ -125,5 +125,6 @@ tags:
   <div class="hero-banner-icon">&#x1F52E;</div>
   <h3>Run the simulation yourself</h3>
   <p>All of these scenarios are explorable in the 50-year simulation toolkit &mdash; 12 policy branches, 5 structural metrics, interactive charts, and AI-generated reports.</p>
-  <a href="https://github.com/reillyclawcode/simulation" target="_blank" rel="noopener" class="cta-link">&#x1F47E; Simulation Toolkit on GitHub &rarr;</a>
+  <a href="https://simulation-brown.vercel.app/" target="_blank" rel="noopener" class="cta-link">&#x1F30C; Explore the live simulation dashboard &rarr;</a>
+  <a href="https://github.com/reillyclawcode/simulation" target="_blank" rel="noopener" class="cta-link">&#x1F47E; View source on GitHub &rarr;</a>
 </div>

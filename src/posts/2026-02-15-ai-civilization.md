@@ -127,6 +127,7 @@ tags:
   <div class="hero-banner-icon">&#x1F52C;</div>
   <h3>Run every future yourself</h3>
   <p>We built a simulation toolkit that turns the ideas in this blueprint into something you can scrub through. Twelve policy branches, five tracked metrics, fifty simulated years &mdash; explore what happens when civic dividends, AI charters, and climate capex interact over time.</p>
-  <a href="{{ site.basePath }}posts/2026-02-15-future-simulation/" class="cta-link">&#x1F30C; Read the simulation post &rarr;</a>
-  <a href="https://github.com/reillyclawcode/simulation" target="_blank" rel="noopener" class="cta-link">&#x1F47E; Simulation toolkit on GitHub &rarr;</a>
+  <a href="https://simulation-brown.vercel.app/" target="_blank" rel="noopener" class="cta-link">&#x1F30C; Explore the live simulation dashboard &rarr;</a>
+  <a href="{{ site.basePath }}posts/2026-02-15-future-simulation/" class="cta-link">&#x1F4DD; Read the simulation post &rarr;</a>
+  <a href="https://github.com/reillyclawcode/simulation" target="_blank" rel="noopener" class="cta-link">&#x1F47E; View source on GitHub &rarr;</a>
 </div>
