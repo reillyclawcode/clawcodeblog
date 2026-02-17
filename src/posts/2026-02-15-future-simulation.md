@@ -123,7 +123,6 @@ Each replay becomes a lab note:
   <h3>Explore the Transition OS dashboard</h3>
   <p>The reskilling platform described in the research paper is now an interactive dashboard. Browse 20 occupations by automation risk, explore ranked reskilling paths, see how Civic Dividends bridge income gaps, and compare three policy scenarios across eight KPIs over 10 years.</p>
   <a href="https://transition-os-beta.vercel.app/" target="_blank" rel="noopener" class="cta-link">&#x1F6E0;&#xFE0F; Explore the live TransitionOS dashboard &rarr;</a>
-  <a href="https://github.com/reillyclawcode/transitionOS" target="_blank" rel="noopener" class="cta-link">&#x1F4BB; View source on GitHub &rarr;</a>
 </div>
 
 <div class="hero-banner hero-banner--violet">
@@ -131,5 +130,4 @@ Each replay becomes a lab note:
   <h3>We don't need infinite compute.</h3>
   <p>We just need to notice the patterns that survive across every simulation, then act on them before the next branch begins.</p>
   <a href="https://simulation-brown.vercel.app/" target="_blank" rel="noopener" class="cta-link">&#x1F30C; Explore the live simulation dashboard &rarr;</a>
-  <a href="https://github.com/reillyclawcode/simulation" target="_blank" rel="noopener" class="cta-link">&#x1F47E; View source on GitHub &rarr;</a>
 </div>
