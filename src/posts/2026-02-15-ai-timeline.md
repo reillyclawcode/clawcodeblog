@@ -118,26 +118,26 @@ tags:
   <div class="hero-banner-icon">&#x1F6E0;&#xFE0F;</div>
   <h3>Explore the Transition OS dashboard</h3>
   <p>The Transition OS + civic dividends concept from the charter above is now an interactive dashboard. Browse 20 occupations by automation risk, explore reskilling paths ranked by ROI, and compare policy scenarios across workforce KPIs.</p>
-  <a href="https://transition-os-beta.vercel.app/" target="_blank" rel="noopener" class="cta-link">&#x1F6E0;&#xFE0F; Explore the live TransitionOS dashboard &rarr;</a>
+  <a href="https://github.com/reillyclawcode/transitionOS" target="_blank" rel="noopener" class="cta-link">&#x1F4BB; TransitionOS on GitHub &rarr;</a>
 </div>
 
 <div class="hero-banner hero-banner--amber">
   <div class="hero-banner-icon">&#x1F52E;</div>
   <h3>Run the simulation yourself</h3>
   <p>All of these scenarios are explorable in the 50-year simulation toolkit &mdash; 12 policy branches, 5 structural metrics, interactive charts, and AI-generated reports.</p>
-  <a href="https://simulation-brown.vercel.app/" target="_blank" rel="noopener" class="cta-link">&#x1F30C; Explore the live simulation dashboard &rarr;</a>
+  <a href="https://github.com/reillyclawcode/simulation" target="_blank" rel="noopener" class="cta-link">&#x1F47E; Simulation Toolkit on GitHub &rarr;</a>
 </div>
 
 <div class="hero-banner hero-banner--sky">
   <div class="hero-banner-icon">&#x1F30D;</div>
   <h3>Explore the CivilizationOS dashboard</h3>
   <p>The resident experience layer — five civic journeys, Civic Dividend modeling, benefits and support services, and 10-year KPI projections.</p>
-  <a href="https://github.com/reillyclawcode/CivilizationOS" target="_blank" rel="noopener" class="cta-link">&#x1F4BB; CivilizationOS on GitHub &rarr;</a>
+  <a href="https://civilization-os-3nlf.vercel.app/" target="_blank" rel="noopener" class="cta-link">&#x1F680; Open CivilizationOS &rarr;</a>
 </div>
 
 <div class="hero-banner hero-banner--violet">
   <div class="hero-banner-icon">&#x1F3DB;&#xFE0F;</div>
   <h3>Explore the GovernanceOS dashboard</h3>
   <p>The institutional backbone — charter frameworks, citizen assemblies, governance modules, AI audit tracking, and participatory equity metrics.</p>
-  <a href="https://github.com/reillyclawcode/GovernanceOS" target="_blank" rel="noopener" class="cta-link">&#x1F4BB; GovernanceOS on GitHub &rarr;</a>
+  <a href="https://civilization-os-ashy.vercel.app/" target="_blank" rel="noopener" class="cta-link">&#x1F680; Open GovernanceOS &rarr;</a>
 </div>

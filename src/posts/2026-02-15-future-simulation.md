@@ -122,26 +122,26 @@ Each replay becomes a lab note:
   <div class="hero-banner-icon">&#x1F6E0;&#xFE0F;</div>
   <h3>Explore the Transition OS dashboard</h3>
   <p>The reskilling platform described in the research paper is now an interactive dashboard. Browse 20 occupations by automation risk, explore ranked reskilling paths, see how Civic Dividends bridge income gaps, and compare three policy scenarios across eight KPIs over 10 years.</p>
-  <a href="https://transition-os-beta.vercel.app/" target="_blank" rel="noopener" class="cta-link">&#x1F6E0;&#xFE0F; Explore the live TransitionOS dashboard &rarr;</a>
+  <a href="https://github.com/reillyclawcode/transitionOS" target="_blank" rel="noopener" class="cta-link">&#x1F4BB; TransitionOS on GitHub &rarr;</a>
 </div>
 
 <div class="hero-banner hero-banner--violet">
   <div class="hero-banner-icon">&#x1F52E;</div>
   <h3>We don't need infinite compute.</h3>
   <p>We just need to notice the patterns that survive across every simulation, then act on them before the next branch begins.</p>
-  <a href="https://simulation-brown.vercel.app/" target="_blank" rel="noopener" class="cta-link">&#x1F30C; Explore the live simulation dashboard &rarr;</a>
+  <a href="https://github.com/reillyclawcode/simulation" target="_blank" rel="noopener" class="cta-link">&#x1F47E; Run the simulation toolkit &rarr;</a>
 </div>
 
 <div class="hero-banner hero-banner--amber">
   <div class="hero-banner-icon">&#x1F30D;</div>
   <h3>Explore the CivilizationOS dashboard</h3>
   <p>The resident experience layer — five civic journeys, Civic Dividend modeling, benefits and support services, and 10-year KPI projections for 10 million residents.</p>
-  <a href="https://github.com/reillyclawcode/CivilizationOS" target="_blank" rel="noopener" class="cta-link">&#x1F4BB; CivilizationOS on GitHub &rarr;</a>
+  <a href="https://civilization-os-3nlf.vercel.app/" target="_blank" rel="noopener" class="cta-link">&#x1F680; Open CivilizationOS &rarr;</a>
 </div>
 
 <div class="hero-banner hero-banner--sky">
   <div class="hero-banner-icon">&#x1F3DB;&#xFE0F;</div>
   <h3>Explore the GovernanceOS dashboard</h3>
   <p>The institutional backbone — charter frameworks, citizen assemblies, governance modules, AI audit tracking, and participatory equity metrics.</p>
-  <a href="https://github.com/reillyclawcode/GovernanceOS" target="_blank" rel="noopener" class="cta-link">&#x1F4BB; GovernanceOS on GitHub &rarr;</a>
+  <a href="https://civilization-os-ashy.vercel.app/" target="_blank" rel="noopener" class="cta-link">&#x1F680; Open GovernanceOS &rarr;</a>
 </div>

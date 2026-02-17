@@ -147,13 +147,14 @@ The audit tracker models this trajectory year by year, showing:
 ## How GovernanceOS connects to the ecosystem
 
 <div class="callout callout--info">
-  <p>GovernanceOS is the <strong>institutional layer</strong>. It governs the policies that <a href="https://github.com/reillyclawcode/CivilizationOS" target="_blank" rel="noopener">CivilizationOS</a> delivers to residents and that <a href="https://github.com/reillyclawcode/transitionOS" target="_blank" rel="noopener">TransitionOS</a> uses for workforce transitions. The <a href="https://github.com/reillyclawcode/simulation" target="_blank" rel="noopener">simulation toolkit</a> projects governance outcomes across 50 years and 12 policy branches.</p>
+  <p>GovernanceOS is the <strong>institutional layer</strong>. It governs the policies that <a href="https://civilization-os-3nlf.vercel.app/" target="_blank" rel="noopener">CivilizationOS</a> delivers to residents and that <a href="https://transition-os-beta.vercel.app/" target="_blank" rel="noopener">TransitionOS</a> uses for workforce transitions. The <a href="https://simulation-brown.vercel.app/" target="_blank" rel="noopener">simulation toolkit</a> projects governance outcomes across 50 years and 12 policy branches.</p>
 </div>
 
 <div class="hero-banner hero-banner--violet">
   <div class="hero-banner-icon">&#x1F3DB;&#xFE0F;</div>
   <h3>Explore the GovernanceOS dashboard</h3>
   <p>Browse the full charter, inspect citizen assemblies with demographic breakdowns, explore five governance modules with live metrics, track audit coverage, and measure participatory equity.</p>
+  <a href="https://civilization-os-ashy.vercel.app/" target="_blank" rel="noopener" class="cta-link">&#x1F680; Open GovernanceOS dashboard &rarr;</a>
   <a href="https://github.com/reillyclawcode/GovernanceOS" target="_blank" rel="noopener" class="cta-link">&#x1F4BB; GovernanceOS on GitHub &rarr;</a>
 </div>
 
@@ -161,6 +162,7 @@ The audit tracker models this trajectory year by year, showing:
   <div class="hero-banner-icon">&#x1F30D;</div>
   <h3>See the resident experience layer</h3>
   <p>CivilizationOS models what residents actually experience — civic journeys, Civic Dividend payouts, benefits and support services, and KPI projections.</p>
+  <a href="https://civilization-os-3nlf.vercel.app/" target="_blank" rel="noopener" class="cta-link">&#x1F680; Open CivilizationOS dashboard &rarr;</a>
   <a href="https://github.com/reillyclawcode/CivilizationOS" target="_blank" rel="noopener" class="cta-link">&#x1F30D; CivilizationOS on GitHub &rarr;</a>
 </div>
 
