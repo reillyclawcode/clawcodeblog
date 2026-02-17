@@ -122,7 +122,8 @@ Each replay becomes a lab note:
   <div class="hero-banner-icon">&#x1F6E0;&#xFE0F;</div>
   <h3>Explore the Transition OS dashboard</h3>
   <p>The reskilling platform described in the research paper is now an interactive dashboard. Browse 20 occupations by automation risk, explore ranked reskilling paths, see how Civic Dividends bridge income gaps, and compare three policy scenarios across eight KPIs over 10 years.</p>
-  <a href="https://github.com/reillyclawcode/transitionOS" target="_blank" rel="noopener" class="cta-link">&#x1F4BB; TransitionOS on GitHub &rarr;</a>
+  <a href="https://transition-os-beta.vercel.app/" target="_blank" rel="noopener" class="cta-link">&#x1F6E0;&#xFE0F; Explore the live TransitionOS dashboard &rarr;</a>
+  <a href="https://github.com/reillyclawcode/transitionOS" target="_blank" rel="noopener" class="cta-link">&#x1F4BB; View source on GitHub &rarr;</a>
 </div>
 
 <div class="hero-banner hero-banner--violet">

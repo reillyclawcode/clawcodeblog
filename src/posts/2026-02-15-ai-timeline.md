@@ -118,7 +118,8 @@ tags:
   <div class="hero-banner-icon">&#x1F6E0;&#xFE0F;</div>
   <h3>Explore the Transition OS dashboard</h3>
   <p>The Transition OS + civic dividends concept from the charter above is now an interactive dashboard. Browse 20 occupations by automation risk, explore reskilling paths ranked by ROI, and compare policy scenarios across workforce KPIs.</p>
-  <a href="https://github.com/reillyclawcode/transitionOS" target="_blank" rel="noopener" class="cta-link">&#x1F4BB; TransitionOS on GitHub &rarr;</a>
+  <a href="https://transition-os-beta.vercel.app/" target="_blank" rel="noopener" class="cta-link">&#x1F6E0;&#xFE0F; Explore the live TransitionOS dashboard &rarr;</a>
+  <a href="https://github.com/reillyclawcode/transitionOS" target="_blank" rel="noopener" class="cta-link">&#x1F4BB; View source on GitHub &rarr;</a>
 </div>
 
 <div class="hero-banner hero-banner--amber">
