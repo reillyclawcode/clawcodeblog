@@ -162,3 +162,10 @@ The grades aren't prediction. They're orientation. They answer the question ever
   <p>Four governance scenarios from full citizen framework to institutional regression. AI audit and participation projections.</p>
   <a href="https://civilization-os-ashy.vercel.app/" target="_blank" rel="noopener">Open Dashboard</a> · <a href="https://github.com/reillyclawcode/GovernanceOS" target="_blank" rel="noopener">GitHub</a>
 </div>
+
+<div class="hero-banner hero-banner--amber">
+  <div class="hero-banner-icon">⚙️</div>
+  <h3>StrategyOS</h3>
+  <p>What can we actually do? 25 personal actions, 8 org strategies, 31 policy interventions across 11 categories — ranked by impact.</p>
+  <a href="https://strategy-os-pearl.vercel.app/" target="_blank" rel="noopener">Open Dashboard</a> · <a href="https://github.com/reillyclawcode/strategyOS" target="_blank" rel="noopener">GitHub</a>
+</div>

@@ -191,6 +191,14 @@ Climate is not a separate issue from governance, from economics, from civic life
   <a href="https://github.com/reillyclawcode/transitionOS" target="_blank" rel="noopener" class="cta-link">💻 TransitionOS on GitHub &rarr;</a>
 </div>
 
+<div class="hero-banner hero-banner--amber">
+  <div class="hero-banner-icon">⚙️</div>
+  <h3>What can we actually do about it?</h3>
+  <p>StrategyOS ranks personal, organizational, and policy strategies by real-world impact — and connects each action to the specific metrics it moves across the ecosystem.</p>
+  <a href="https://strategy-os-pearl.vercel.app/" target="_blank" rel="noopener" class="cta-link">⚙️ Open StrategyOS dashboard &rarr;</a>
+  <a href="https://github.com/reillyclawcode/strategyOS" target="_blank" rel="noopener" class="cta-link">💻 StrategyOS on GitHub &rarr;</a>
+</div>
+
 <div class="hero-banner hero-banner--sky">
   <div class="hero-banner-icon">🔬</div>
   <h3>Run the simulation</h3>
