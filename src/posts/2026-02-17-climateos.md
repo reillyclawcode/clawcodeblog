@@ -154,7 +154,7 @@ This isn't about optimism or pessimism. It's about making the consequences of ac
 ## How ClimateOS connects to the ecosystem
 
 <div class="callout callout--info">
-  <p>ClimateOS is the <strong>environmental layer</strong>. It models the planetary systems that constrain everything else — the temperature, water, food, and biodiversity boundaries within which <a href="https://civilization-os-3nlf.vercel.app/" target="_blank" rel="noopener">CivilizationOS</a> builds civic infrastructure, <a href="https://civilization-os-ashy.vercel.app/" target="_blank" rel="noopener">GovernanceOS</a> designs institutions, and <a href="https://transition-os-beta.vercel.app/" target="_blank" rel="noopener">TransitionOS</a> manages workforce transitions. The <a href="https://simulation-tau-dun.vercel.app/" target="_blank" rel="noopener">simulation toolkit</a> projects these constraints across 50 years and 12 policy branches.</p>
+  <p>ClimateOS is the <strong>environmental layer</strong>. It models the planetary systems that constrain everything else — the temperature, water, food, and biodiversity boundaries within which <a href="https://civilization-os-3nlf.vercel.app/" target="_blank" rel="noopener">CivilizationOS</a> builds civic infrastructure, <a href="https://civilization-os-ashy.vercel.app/" target="_blank" rel="noopener">GovernanceOS</a> designs institutions, and <a href="https://transition-os-beta.vercel.app/" target="_blank" rel="noopener">TransitionOS</a> manages workforce transitions. The <a href="https://simulation-brown.vercel.app/" target="_blank" rel="noopener">simulation toolkit</a> projects these constraints across 50 years and 12 policy branches.</p>
 </div>
 
 Climate is not a separate issue from governance, from economics, from civic life. It is the foundation layer. Every scenario modeled in the other tools implicitly assumes a climate trajectory. ClimateOS makes that trajectory explicit.
@@ -195,6 +195,6 @@ Climate is not a separate issue from governance, from economics, from civic life
   <div class="hero-banner-icon">🔬</div>
   <h3>Run the simulation</h3>
   <p>All of these systems projected across 50 years — 12 policy branches, 5 structural metrics, interactive charts, and AI-generated narrative reports.</p>
-  <a href="https://simulation-tau-dun.vercel.app/" target="_blank" rel="noopener" class="cta-link">🔬 Open Simulation dashboard &rarr;</a>
+  <a href="https://simulation-brown.vercel.app/" target="_blank" rel="noopener" class="cta-link">🔬 Open Simulation dashboard &rarr;</a>
   <a href="https://github.com/reillyclawcode/simulation" target="_blank" rel="noopener" class="cta-link">👾 Simulation Toolkit on GitHub &rarr;</a>
 </div>

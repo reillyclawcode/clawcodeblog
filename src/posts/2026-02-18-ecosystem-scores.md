@@ -70,7 +70,7 @@ The Simulation dashboard now leads with a "Today's Civilization Score" computed 
 
 The scorecard also shows where bold action and status quo branches end up after 50 years, providing immediate stakes before you even interact with the branch explorer.
 
-<a href="https://simulation-tau-dun.vercel.app/" target="_blank" rel="noopener" class="cta-link">Explore Simulation →</a>
+<a href="https://simulation-brown.vercel.app/" target="_blank" rel="noopener" class="cta-link">Explore Simulation →</a>
 
 ### CivilizationOS: Civilization Health Index
 
@@ -139,7 +139,7 @@ The grades aren't prediction. They're orientation. They answer the question ever
   <div class="hero-banner-icon">🔬</div>
   <h3>Simulation</h3>
   <p>12 branches, 50-year horizon, 5 structural metrics. Baseline civilization score and branch explorer.</p>
-  <a href="https://simulation-tau-dun.vercel.app/" target="_blank" rel="noopener">Open Dashboard</a> · <a href="https://github.com/reillyclawcode/simulation" target="_blank" rel="noopener">GitHub</a>
+  <a href="https://simulation-brown.vercel.app/" target="_blank" rel="noopener">Open Dashboard</a> · <a href="https://github.com/reillyclawcode/simulation" target="_blank" rel="noopener">GitHub</a>
 </div>
 
 <div class="hero-banner hero-banner--amber">
